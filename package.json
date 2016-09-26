@@ -1,7 +1,7 @@
 {
-  "name": "diaverum",
+  "name": "react-redux-boilerplate",
   "version": "1.0.0",
-  "description": "Diaverum project",
+  "description": "React Redux biolerplate",
   "main": "src/index.js",
   "private": true,
   "scripts": {
@@ -12,14 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tretton37/diaverum.git"
+    "url": "git+https://github.com/muenva/react-redux-boilerplate.git"
   },
-  "author": "tretton37",
+  "author": "Balazs Gobel",
   "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/tretton37/diaverum/issues"
-  },
-  "homepage": "https://github.com/tretton37/diaverum#readme",
   "dependencies": {
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
