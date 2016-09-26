@@ -1,0 +1,50 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true,
+      "modules": true
+    },
+    "sourceType": "module"
+  },
+
+  "env": {
+    "es6": true,
+    "node": true
+  },
+
+  "plugins": [
+    "standard",
+    "promise",
+    "react"
+  ],
+
+  "globals": {
+    "document": false,
+    "navigator": false,
+    "window": false,
+    "XMLHttpRequest": false,
+    "React": false,
+
+    #jasmine test globals
+    "describe": false,
+    "it": false,
+    "expect": false,
+    "beforeEach": false,
+    "spyOn": false
+  },
+
+  "rules":  {
+    "operator-linebreak": ["error", "before"],
+    "no-console": 0,
+    "react/no-danger": 0,
+    "react/no-find-dom-node": 0
+  },
+
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "standard"
+  ]
+}
